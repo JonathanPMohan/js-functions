@@ -31,7 +31,7 @@ console.log(nomnom('jonathan', bearSticks)); // Jonathan devoured bear stix
 
 const numberAdder = (num) => {
     const finalNumber = num + 3;
-    printToDom(`<h2>${finalNumber}</h2>`, 'allTheNumbers');
+    printToDom(`<h2>${finalNumber}</h2>`, 'feelings');
 }
 
 const printToDom = (stringToPrint, divId) => {
